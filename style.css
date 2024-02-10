@@ -129,12 +129,11 @@ main{
 }
 .Skills-Container{
     display: flex;
+    gap: 24px;
     justify-content: space-between;
 }
 .Skill{
-    width: 185px;
-    height: 280px;
-    padding: 20px 20px;
+    padding: 22px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .Skill-Description{
@@ -143,3 +142,32 @@ main{
 
 /* My Resume Section Styles */
 
+.Section-Title{
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+.Resume-Column-Title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Resume-Container{
+    display: flex;
+    gap: 50px;
+    margin-top: 0px;
+}
+.Resume-Item-Title{
+    margin-bottom: 10px;
+}
+.Resume-Item-Institute{
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.Resume-Item-Description{
+    color: #757575;
+}
+.Download-Cv{
+    text-align: center;
+    margin-top: 25px;
+}
