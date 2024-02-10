@@ -169,5 +169,13 @@ main{
 }
 .Download-Cv{
     text-align: center;
-    margin-top: 25px;
+    margin: 25px 0px 50px 0px;
+}
+
+/* Footer Style */
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
 }
