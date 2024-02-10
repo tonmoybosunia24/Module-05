@@ -28,6 +28,9 @@ body{
     text-align: center;
     font-size: 18px;
 }
+.fa-solid{
+    margin-right: 7px;
+}
 
 /* Nav Related Style */
 
