@@ -1,4 +1,5 @@
 /* Common Shared Styles */
+
 body{
     font-family: 'Open Sans', sans-serif;
     padding: 0px;
@@ -16,7 +17,20 @@ body{
     font-weight: 700px;
     padding: 15px 35px;
 }
+.Section-Title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.Section-Description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* Nav Related Style */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -76,7 +90,56 @@ nav a{
 .Banner-Description{
     width: 500px;
 }
+
 /* Main section Styles */
 
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /* About Section Styles */
+
+.About{
+    padding: 50px 80px 80px 80px;
+    background-color: #FFF8F3;
+    margin: 100px 0px 70px 0px;
+}
+.About-Info-Container{
+    display: flex;
+    justify-content: space-around;
+}
+.About-Info{
+    text-align: center;
+}
+.Info-Title{
+    color: #757575;
+}
+.Info-Description{
+    font-weight: bold;
+}
+
+/* What I Can Do Section Styles */
+
+.Skills-Container{
+    margin-bottom: 50px;
+}
+.What-I-Do-Description{
+    padding: 0px 150px 30px 150px;
+}
+.Skills-Container{
+    display: flex;
+    justify-content: space-between;
+}
+.Skill{
+    width: 185px;
+    height: 280px;
+    padding: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Skill-Description{
+    color: #757575;
+}
+
+/* My Resume Section Styles */
 
