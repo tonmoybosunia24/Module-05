@@ -1,6 +1,8 @@
 /* Common Shared Styles */
 body{
     font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 .Text-Primary{
     color: #FD6E0A;
@@ -19,6 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 90px 0px 130px;
 }
 .Nav-Title{
     color: #181818;
@@ -37,3 +40,43 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
+
+/* Header Related Style */
+
+.Header{
+    background-color: #FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.Banner{
+    padding: 30px 30px 0px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Banner-Content{
+    margin-bottom: 80px;
+}
+.Banner .Profile-Picture{
+    width: 400px;
+    height: 403px;
+}
+.Banner-Greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.Banner-Title{
+    font-size: 55px;
+    font-weight: 800px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.Banner-Description{
+    width: 500px;
+}
+/* Main section Styles */
+
+/* About Section Styles */
+
