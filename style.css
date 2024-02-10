@@ -178,14 +178,10 @@ footer{
     display: flex;
     gap: 100px;
     background-color: #FFF8F3;
-    padding: 130px 200px 130px 100px;
+    padding: 50px 200px 70px 100px;
 }
 .Footer-Column{
     width: 50%;
-}
-.Section-Description{
-    width: 562px;
-    height: 56px;
 }
 .Social-Links a{
     margin-right: 25px;
