@@ -189,6 +189,9 @@ footer{
 .Social-Links a{
     margin-right: 25px;
 }
+.Social-Links a:first-child{
+    padding-left: 140px;
+}
 .Contact input[type="text"], .Contact input[type="email"],
 textarea{
     display: block;
@@ -229,5 +232,18 @@ textarea{
         flex-direction: column;
         text-align: center;
         margin: 0px 30px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 0px 30px;
+        gap: 0px;
+        padding-bottom: 50px;
+    }
+    .Footer-Column{
+        width: 100%;
+        overflow: hidden;
+    }
+    .Social-Links a:first-child{
+        padding-left: 90px;
     }
 }
