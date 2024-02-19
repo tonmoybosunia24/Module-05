@@ -299,7 +299,13 @@ textarea{
     }
     .Skill{
         margin: 0px 30px;
-        padding: 90px 40px;
+        padding: 60px 40px;
+    }
+    .Skill-Title{
+        font-size: 20px;
+    }
+    .Skill-Description{
+        font-size: 20px;
     }
     .Resume-Container{
         flex-direction: column;
