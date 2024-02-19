@@ -212,6 +212,43 @@ textarea{
     display: none;
 }
 @media screen and (max-width:776px) {
+    .Banner{
+        flex-direction: column;
+        padding: 0px 0px 0px 30px;
+    }
+    .Banner-Content{
+        width: 100%;
+    }
+    .Contact{
+        margin-top: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+        
+    }
+    .Banner .Profile-Picture{
+        width: 100%;
+        height: fit-content;
+    }
+    .Banner-Title{
+        font-size: 40px;
+    }
+    .Banner-Description{
+        font-size: 20px;
+        width: 100%;
+    }
+    .About{
+        padding: 50px 30px;
+    }
+    .Section-Description{
+        text-align: justify;
+    }
+    .About-Info-Container{
+        flex-direction: column;
+    }
     .Section-Title{
         font-size: 30px;
     }
