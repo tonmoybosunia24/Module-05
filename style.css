@@ -200,3 +200,32 @@ textarea{
     border: none;
     width: 100%;
 }
+
+/* Responsive Styles */
+
+/* Mobile Devices */
+
+.Hide{
+    display: none;
+}
+@media screen and (max-width:776px) {
+    .Section-Title{
+        font-size: 30px;
+    }
+    .Skills-Container{
+        flex-direction: column;
+    }
+    .What-I-Do-Description{
+        padding: 10px 25px;
+        text-align: justify;
+    }
+    .Skill{
+        margin: 0px 20px;
+        padding: 35px 35px;
+    }
+    .Resume-Container{
+        flex-direction: column;
+        text-align: center;
+        margin: 0px 20px;
+    }
+}
