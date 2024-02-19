@@ -249,7 +249,7 @@ textarea{
     }
     .Banner .Profile-Picture{
         width: 90%;
-        height: 310px;
+        height: 325px;
         padding-right: 8px;
         margin-top: 0px;
         padding-top: 0px;
@@ -313,7 +313,9 @@ textarea{
     }
     .Footer-Column{
         width: 100%;
-        overflow: hidden;
+    }
+    .Contact{
+        width: 80%;
     }
     .Social-Links a:first-child{
         padding-left: 90px;
