@@ -212,36 +212,71 @@ textarea{
     display: none;
 }
 @media screen and (max-width:776px) {
+    .Header{
+        width: 100%;
+    }
     .Banner{
         flex-direction: column;
         padding: 0px 0px 0px 30px;
     }
     .Banner-Content{
         width: 100%;
+        margin-bottom: 40px;
     }
     .Contact{
         margin-top: 10px;
     }
+    .Nav-Title{
+        margin: 61px 0px 5px 0px;
+    }
     nav{
         flex-direction: column;
+        width: 80%;
+        margin: 0;
+        padding-left: 30px;
     }
     nav > ul{
-        flex-direction: column;
-        
+        width: 100%;
+        flex-direction: row;
+        padding-left: 0px;
+        justify-content: space-evenly;
+        margin-left: 20px;
+    }
+    nav > ul > li{
+        padding: 0px 0px;
+        text-align: center;
+        margin: 0;
     }
     .Banner .Profile-Picture{
-        width: 100%;
-        height: fit-content;
+        width: 90%;
+        height: 310px;
+        padding-right: 8px;
+        margin-top: 0px;
+        padding-top: 0px;
     }
     .Banner-Title{
         font-size: 40px;
     }
     .Banner-Description{
-        font-size: 20px;
+        font-size: 15px;
         width: 100%;
     }
+    .Button-Primary{
+        border-radius: 5px;
+        background: #FD6E0A;
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 700px;
+        padding: 15px 25px;
+    }
+    .Hire{
+        background-color: red;
+        padding: 10px 15px;
+    }
     .About{
-        padding: 50px 30px;
+        padding: 15px 30px 30px 30px;
+        margin: 0px;
     }
     .Section-Description{
         text-align: justify;
